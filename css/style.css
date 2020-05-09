@@ -1,6 +1,69 @@
 body {
    background-color: white;
+   max-width: 900px;
 }
+
+section#delicious {
+    margin: 15px 0px 0px 0px;
+}
+
+header>section p span#blog-name {
+    color: purple;
+}
+
 img#logo{
     float: left;
+    padding-right: 10px;
 }
+
+section#social-links {
+    /* float: right; */
+    position: absolute;
+    left: 675px;
+    top: 25px;
+}
+
+section.diagonalborder {
+    color: gray;
+    height: 15px;
+}
+
+main {
+    clear: left;
+}
+
+section#recipe-title {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+section#print-icon {
+    position: absolute;
+    left: 848px;
+    top: 70px;
+}
+
+img#titleimg {
+    margin-bottom: 30px;
+}
+
+main p {
+    margin-bottom: 30px;
+}
+
+section#recipe-checkboxes {
+    font-size: 5.0em;
+    text-align: center;
+    border: solid 1px black;
+    width: 899px;
+    height: 305px;
+    position: absolute;
+    top: 1025px;
+}
+
+/* 
+#list-background {
+    position: absolute;
+    left: 30px;
+} */
